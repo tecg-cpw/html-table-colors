@@ -1,63 +1,148 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400,700|Inconsolata&subset=latin-ext);
+@import url(https://fonts.bunny.net/css?family=inconsolata:400|merriweather:400|inter:400);
 
-html * {
-    margin: 1%, 0, 0, 1%;
+html {
+    margin: 1vh 0 0 1vh;
     padding: 0;
-    font: 16px/1.5 'Open Sans', sans-serif;
+    font: 16px/1.5 'inter', sans-serif;
+    background: whitesmoke;
+    color: darkslategray;
 }
+
 body {
-    width: 54em;
+    max-width: 46em;
     margin: 1em auto;
 }
+
 p {
     margin: .5em 0;
 }
+
 h1, h2, th {
     font-family: 'Merriweather', serif;
 }
+
 h1 {
-    width: 20em;
     margin: auto;
+    padding-block-start: 3rem;
+    padding-block-end: 1rem;
     text-align: center;
-    border: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     font-size: 2em;
 }
-div#abstract p {
+
+p#abstract {
     margin: 1em 0;
-    padding: .4em;
-    text-align: center;
-    background-color: #eeeeee;
+    padding-block: 2em;
+    padding-inline: 4em;
+    background-color: rgba(0,0,100,0.03);
     font-size: 1.2em;
     font-weight: bold;
+    border-radius: 0.2rem;
 }
+
 h2 {
     margin: 1em 0 0;
     font-size: 1.3em;
 }
-table#nomscoul {
-    margin-top: 1em;
+
+table {
+    margin: 1em 0;
     border-collapse: collapse;
     caption-side: bottom;
 }
+
 th, td {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: .5em 1em;
     font-size: 1.1em;
 }
+
 th {
-    background-color : #eeeeee;
+    background-color: #eeeeee;
     padding: .5em;
 }
+
 td {
     font: normal 1em 'Open Sans', sans-serif;
     vertical-align: top;
 }
+
 caption {
     margin: .4em 0;
     font-size: .8em;
     text-align: right;
 }
-.code, .html {
-    font-family: 'Inconsolata', monospace;
-    font-size: 1.2em;
+
+td{
+    vertical-align: baseline;
+}
+
+code {
+    font-family: 'inconsolata', monospace;
+    font-size: 1.1em;
+}
+
+td.aqua {
+    background-color: aqua;
+}
+
+td.black {
+    background-color: black;
+}
+
+td.blue {
+    background-color: blue;
+}
+
+td.fuchsia {
+    background-color: fuchsia;
+}
+
+td.gray {
+    background-color: gray;
+}
+
+td.green {
+    background-color: green;
+}
+
+td.lime {
+    background-color: lime;
+}
+
+td.maroon {
+    background-color: maroon;
+}
+
+td.navy {
+    background-color: navy;
+}
+
+td.olive {
+    background-color: olive;
+}
+
+td.purple {
+    background-color: purple;
+}
+
+td.red {
+    background-color: red;
+}
+
+td.silver {
+    background-color: silver;
+}
+
+td.teal {
+    background-color: teal;
+}
+
+td.white {
+    background-color: white;
+}
+
+td.yellow {
+    background-color: yellow;
 }
